@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+font-family: "Poppins", sans-serif;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 99 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    height: 7vh;
+    .name{
+        width: 30%;
+        padding: 10px;
+        text-align: center;
+        /* background-color: bisque; */
+        a{
+            text-decoration: none ;
+            color: #3a6cf4;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 1.6em;
+        }
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around ;
+    }
+    .navigations{
+        width: 40%;
+        a{
+            text-decoration: none ;
+            color: #3a6cf4;
+            text-transform: capitalize;
+            font-weight: 600;
+            font-size: 1em;
+            transition: .5s;
+        }
+        a:hover {
+            color:blueviolet;
+        }
+    }
+}
+.main{
+    position:relative;
+    /* top: 7vh; */
+    height: 100vh ;
+    background-image: url(WhatsApp\ Image\ 2025-04-05\ at\ 23.16.48_e3acc9aa.jpg);
+    background-position: center -600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* z-index: 99; */
+    /* background-color: azure; */
+    .info{
+        /* background-color: antiquewhite; */
+        /* z-index: 3000; */
+        
+        color: #f0f0f0;
+        position: absolute;
+        top: 435px;
+        left: 280px;
+        transform: skew(143deg);
+        span{
+            color: rgb(94, 80, 77);
+            font-size: 1.6em;
+        }
+        h3{
+            font-size: 1.3em;
+            margin: 15px 0px;
+        }
+        .main-btn{
+            text-decoration: none;
+            color: #f0f0f0;
+            background-color: rgb(94, 80, 77);
+            border-radius: 10px;
+            font-weight: 600;
+            padding: 10px 15px;
+            position: absolute;
+            left: 120px;
+            /* transform: skew(-143deg); */
+            transition: .5s;
+            
+        }
+        .main-btn:hover {
+            color: rgb(94, 80, 77);
+            background-color: #f0f0f0;
+            transform: scale(1.2,1.2);
+        }
+        .social-icons{
+            position: absolute;
+            right: 210px;
+            top:170px ;
+            transform: skew(180deg);
+            a{
+                margin: 7px;
+                color: rgb(94, 80, 77) ;
+                font-size: 1.6em;
+            }
+        }
+    }
+}
+.services{
+    background-color: #f0f0f0;
+    min-height: 85vh;
+    /* z-index: 99; */
+    position: relative;
+    /* top: 7vh; */
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    h2{
+        color: #3a6cf4;
+        text-align: center;
+        font-size: 2em;
+    }
+    .cont{
+        display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+        div{
+            width: 21.5%;
+            border-radius: 20px;
+            box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.108) ;
+            transition: .5s ;
+            i{
+                font-size: 6em;
+                color: #3a6cf4;
+                margin: 30px;
+            }
+            h3{
+                color: #3a6cf4;
+            }
+            p{
+                margin: 20px;
+            }
+        }
+        div:hover{
+            transform: scale(1.1,1.1);
+            box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.441);
+            border-radius: 40px;
+        }
+    }
+}
+.Projects{
+    background-color: white;
+    background-image: url(WhatsApp\ Image\ 2025-04-12\ at\ 21.04.26_ee7c27ff.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 65%;
+    /* position: relative; */
+    /* min-height: 90vh; */
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        /* position: absolute; */
+        margin-top: 35px;
+        color: #3a6cf4;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .container{
+        /* background-color: aqua; */
+        width: 65%;
+        height: 50%;
+        margin-bottom: 30px;
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        /* overflow: hidden; */
+        /* position: absolute; */
+        div{
+            /* color: #f0f0f0; */
+            /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
+            background-color:rgb(227, 227, 227);
+            width: 27%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            height: 44vh; 
+            transition: .5s;
+            img{
+                width: 99%;
+                margin: 2px 0;
+                height: 43%;
+                border-radius: 10px;
+                position: absolute;
+                top: 0;
+                transition: .5s;
+            }
+            a{
+                text-decoration: none;
+                color: #3a6cf4;
+                font-weight: 200;
+                font-size: 1em;
+                position: absolute;
+                top: 50%;
+                -webkit-text-stroke: .4px rgb(255, 255, 255);
+            }
+            p{
+                margin: 1px 0;
+                position: absolute;
+                top: 60%;
+            }
+            &:hover{
+                transform: scale(1.2);
+                background-color: black;
+                color: #f0f0f0;
+                border-radius:10% ;
+            }
+            &:hover img{
+                border-radius: 15%;
+            } 
+        }
+        
+    }
+}
+.contact{
+    background-color: rgb(204, 203, 203);
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    h2{
+        /* position: absolute; */
+        margin-top: 35px;
+        color: #3a6cf4;
+        text-align: center;
+        font-size: 2em;
+    }
+    .divs{
+        display: flex;
+        gap: 70px;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        margin:25px 0;
+        div{
+            border-radius:20%;
+            box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.108) ;
+            background-color: white;
+            padding: 30px;
+            text-align: center;
+            width: 40%;
+            transition: .5s ;
+
+            i{
+                color: #3a6cf4;
+                font-size: 6em;
+                margin: 30px ;
+            }
+            h3{
+                /* color: #3a6cf4; */
+                font-size: 1.3em;
+                font-weight: 800;
+                margin-bottom: 20px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 1.1em;
+            }
+            &:hover{
+                transform: scale(1.1,1.1);
+                box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.441);
+                border-radius: 40px;   
+            }
+        }
+        
+    }
+}
+.foot{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        color: #f0f0f0;
+        font-weight: 300;
+        span{
+            font-weight: 500;
+            color: #3a6cf4;
+            font-size: 1.1em;
+        }
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:15% ;
+        /* background-color: aliceblue; */
+        a{
+            font-size: 1.2em;
+            color: #f0f0f0;
+        }
+    }
+}
