@@ -52,23 +52,23 @@ header{
 }
 .main{
     position:relative;
-    /* top: 7vh; */
+    /* top: 7vh; */ 
     height: 100vh ;
     background-image: url(WhatsApp\ Image\ 2025-04-05\ at\ 23.16.48_e3acc9aa.jpg);
-    background-position: center -600px;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     /* z-index: 99; */
-    /* background-color: azure; */
+    /* background-color: rgb(54, 218, 218); */
     .info{
         /* background-color: antiquewhite; */
         /* z-index: 3000; */
         
         color: #f0f0f0;
         position: absolute;
-        top: 435px;
-        left: 280px;
+        top: 60%;
+        left: 17%;
         transform: skew(143deg);
         span{
             color: rgb(94, 80, 77);
