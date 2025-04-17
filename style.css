@@ -315,6 +315,12 @@ header{
         a{
             font-size: 1.2em;
             color: #f0f0f0;
+            transition: .5s;
+        }
+        a:hover{
+            color: #3a6cf4;
+            transform: scale(1.1);
         }
     }
+    
 }
