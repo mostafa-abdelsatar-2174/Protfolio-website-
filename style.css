@@ -321,6 +321,14 @@ header{
             color: #3a6cf4;
             transform: scale(1.1);
         }
+        .w:hover{
+            color: green;
+            transform: scale(1.1);
+        }
+        .i:hover{
+            color:blueviolet;
+            transform: scale(1.1);
+        }
     }
     
 }
