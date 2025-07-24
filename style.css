@@ -217,6 +217,15 @@ header{
                 position: absolute;
                 top: 50%;
                 -webkit-text-stroke: .4px rgb(255, 255, 255);
+                span{
+                margin: 20px;
+                color: rgba(222, 199, 0, 1);
+                font-family: 'Sacramento', cursive;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                }
             }
             p{
                 margin: 1px 0;
@@ -232,6 +241,13 @@ header{
             &:hover img{
                 border-radius: 15%;
             } 
+        }
+        #res{
+                p{
+                    margin: 1px 0;
+                    position: absolute;
+                    top: 70%;
+                }
         }
         
     }
